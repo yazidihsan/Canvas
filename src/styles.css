@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box{
+  width: 320px;
+  height:320px;
+  /* outline: black; */
+  margin: 25px 50px 75px 100px;
+  /* padding:5px 5px 5px 5px; */
+  border:1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+
+}
+
+.box canvas {
+  background-color: white;
+  color:red;
+  object-fit: cover;
+}
